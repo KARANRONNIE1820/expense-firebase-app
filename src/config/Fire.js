@@ -7,7 +7,8 @@ const config = {
   storageBucket: "react-expense-tracker-c37ef.appspot.com",
   messagingSenderId: "964977419454",
   appId: "1:964977419454:web:a105aabd2a655abbd16aef",
+  measurementId: "G-VPP55K5YBK"
 };
- 
+
 const fire = firebase.initializeApp(config);
 export default fire;
